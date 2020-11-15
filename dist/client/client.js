@@ -10,7 +10,7 @@ const geometry = new THREE.BoxGeometry();
 const material = new THREE.MeshBasicMaterial({ color: 0x00ff00, wireframe: true });
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
-camera.position.z = 2;
+camera.position.z = 15;
 var animate = function () {
     requestAnimationFrame(animate);
     cube.rotation.x += 0.01;
